@@ -74,5 +74,5 @@ app.listen(3030).then(() => console.log('Feathers server listening on localhost:
 // Por si acaso, se crea un mensaje...
 // Para que la API no parezca tan vacía...
 app.service('messages').create({
-  text: 'Hello world from th server...!!!'
+  text: 'Hello world from the server...!!!'
 });
